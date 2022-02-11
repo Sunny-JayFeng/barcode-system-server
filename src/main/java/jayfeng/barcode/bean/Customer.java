@@ -36,6 +36,11 @@ public class Customer {
     private String phone;
 
     /**
+     * 是否有定制标签
+     */
+    private Byte haveCustomerLabel;
+
+    /**
      * 创建时间
      */
     private LocalDateTime createTime;
